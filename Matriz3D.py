@@ -1,7 +1,10 @@
-# Matriz3D
-# Primera dimensión: Ciudades (3 ciudades)
-# Segunda dimensión: Semanas (4 semanas)
-# Tercera dimensión: Días de la semana (7 días)
+def calcular_promedio_ciudad(ciudad, temperaturas):
+    print(f"\nPromedio de temperaturas de la ciudad: {ciudad}")
+    for i, semana in enumerate(temperaturas, start=1):
+        promedio_semana = sum(dia['temp'] for dia in semana) / 7
+        print(f"Semana {i} temp_promedio : {promedio_semana:.2f}°C")
+
+
 temperaturas = [
     [   # Ambato
         [   # Semana 1
@@ -119,21 +122,6 @@ temperaturas = [
     ]
 ]
 #
-# Calcular el promedio de temperaturas para cada ciudad y semana
-i=0
-j=0
-for ciudad in temperaturas:
-    i=i+1
-    if i == 1:#numero de la cuidad
-        print(f"\nPromedio de temperaturas de la cuidad: {i}, Ambato")
-    elif i ==2:
-        print(f"\nPromedio de temperaturas de la cuidad: {i}, Puyo")
-    else:
-        print(f"\nPromedio de temperaturas de la cuidad: {i}, Loja")
-    j=0
-    for semana in ciudad:
-        j=j+1 #para numero de la semana
-        promp = 0
-        for dia in semana:
-            promp += dia['temp']/7
-        print(f"Semana {j} temp_promedio : {promp:.2f}°C")
+calcular_promedio_ciudad("Ambato", temperaturas[0])
+calcular_promedio_ciudad("Puyo", temperaturas[1])
+calcular_promedio_ciudad("Loja", temperaturas[2])
