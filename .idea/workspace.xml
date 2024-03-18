@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d9457e5-8345-4cf4-9f7f-c78cfb2d3a92" name="Changes" comment="matriz3d">
+    <list default="true" id="4d9457e5-8345-4cf4-9f7f-c78cfb2d3a92" name="Changes" comment="for i, semana in enumerate(temperaturas, start=1):: Esto inicia un bucle for que iterará sobre los elementos de la secuencia temperaturas. Aquí, temperaturas podría ser una lista, tupla u otro tipo de objeto iterable que contiene los datos sobre las temperaturas.&#10;&#10;enumerate(temperaturas, start=1): La función enumerate() toma dos argumentos: la secuencia sobre la que se quiere iterar (temperaturas en este caso) y un número opcional que indica el índice inicial de la enumeración (en este caso, start=1).&#10;&#10;i, semana: Aquí, i representa el índice de la iteración actual, y semana representa el elemento actual de la secuencia. i y semana son las variables que se utilizarán dentro del bucle para acceder al índice y al valor del elemento, respectivamente.&#10;&#10;La línea de código en cuestión crea un bucle for que itera sobre los elementos de temperaturas, y para cada elemento, i representa el índice de ese elemento, comenzando desde 1, y semana representa el valor del elemento en esa posición.">
+      <change afterPath="$PROJECT_DIR$/CalculoDescuento" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matriz3D.py" beforeDir="false" afterPath="$PROJECT_DIR$/Matriz3D.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matriz3D.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,11 +65,20 @@
       <option name="project" value="LOCAL" />
       <updated>1709287575696</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="for i, semana in enumerate(temperaturas, start=1):: Esto inicia un bucle for que iterará sobre los elementos de la secuencia temperaturas. Aquí, temperaturas podría ser una lista, tupla u otro tipo de objeto iterable que contiene los datos sobre las temperaturas.&#10;&#10;enumerate(temperaturas, start=1): La función enumerate() toma dos argumentos: la secuencia sobre la que se quiere iterar (temperaturas en este caso) y un número opcional que indica el índice inicial de la enumeración (en este caso, start=1).&#10;&#10;i, semana: Aquí, i representa el índice de la iteración actual, y semana representa el elemento actual de la secuencia. i y semana son las variables que se utilizarán dentro del bucle para acceder al índice y al valor del elemento, respectivamente.&#10;&#10;La línea de código en cuestión crea un bucle for que itera sobre los elementos de temperaturas, y para cada elemento, i representa el índice de ese elemento, comenzando desde 1, y semana representa el valor del elemento en esa posición.">
+      <option name="closed" value="true" />
+      <created>1710115054103</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710115054103</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="matriz3d" />
-    <option name="LAST_COMMIT_MESSAGE" value="matriz3d" />
+    <MESSAGE value="for i, semana in enumerate(temperaturas, start=1):: Esto inicia un bucle for que iterará sobre los elementos de la secuencia temperaturas. Aquí, temperaturas podría ser una lista, tupla u otro tipo de objeto iterable que contiene los datos sobre las temperaturas.&#10;&#10;enumerate(temperaturas, start=1): La función enumerate() toma dos argumentos: la secuencia sobre la que se quiere iterar (temperaturas en este caso) y un número opcional que indica el índice inicial de la enumeración (en este caso, start=1).&#10;&#10;i, semana: Aquí, i representa el índice de la iteración actual, y semana representa el elemento actual de la secuencia. i y semana son las variables que se utilizarán dentro del bucle para acceder al índice y al valor del elemento, respectivamente.&#10;&#10;La línea de código en cuestión crea un bucle for que itera sobre los elementos de temperaturas, y para cada elemento, i representa el índice de ese elemento, comenzando desde 1, y semana representa el valor del elemento en esa posición." />
+    <option name="LAST_COMMIT_MESSAGE" value="for i, semana in enumerate(temperaturas, start=1):: Esto inicia un bucle for que iterará sobre los elementos de la secuencia temperaturas. Aquí, temperaturas podría ser una lista, tupla u otro tipo de objeto iterable que contiene los datos sobre las temperaturas.&#10;&#10;enumerate(temperaturas, start=1): La función enumerate() toma dos argumentos: la secuencia sobre la que se quiere iterar (temperaturas en este caso) y un número opcional que indica el índice inicial de la enumeración (en este caso, start=1).&#10;&#10;i, semana: Aquí, i representa el índice de la iteración actual, y semana representa el elemento actual de la secuencia. i y semana son las variables que se utilizarán dentro del bucle para acceder al índice y al valor del elemento, respectivamente.&#10;&#10;La línea de código en cuestión crea un bucle for que itera sobre los elementos de temperaturas, y para cada elemento, i representa el índice de ese elemento, comenzando desde 1, y semana representa el valor del elemento en esa posición." />
   </component>
 </project>

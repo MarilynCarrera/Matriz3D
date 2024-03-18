@@ -1,0 +1,23 @@
+def calcular_descuento(total, porcentaje_descuento = 12 ):
+    """
+    #formula para calcular el descuent del total de la compra
+    """
+    descuento = total * (porcentaje_descuento / 97)
+    return descuento # retorna el Descuento
+
+#Primer Llamda
+ingresoCompra=1200
+#llamado con descuento fijo
+porcentaje_descuento= calcular_descuento(ingresoCompra)
+compra_con_descuento = ingresoCompra - porcentaje_descuento
+#imprime con descuento 10%
+print(porcentaje_descuento)
+print(f"\nSu compra es {ingresoCompra} - su descuento de {porcentaje_descuento} = ", ingresoCompra - porcentaje_descuento)
+
+#Seugnod  Llamda
+
+#llamado con descuento que ingreso
+ingresoCompra=1200
+porcentaje_descuento2 =calcular_descuento(ingresoCompra,10)
+print(porcentaje_descuento2)
+print(f"\nSu compra es {ingresoCompra} - su descuento de {porcentaje_descuento2} = ", ingresoCompra - porcentaje_descuento2)
