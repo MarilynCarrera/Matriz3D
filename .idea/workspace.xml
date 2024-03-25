@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d9457e5-8345-4cf4-9f7f-c78cfb2d3a92" name="Changes" comment="calculo_descuento" />
+    <list default="true" id="4d9457e5-8345-4cf4-9f7f-c78cfb2d3a92" name="Changes" comment="calculo_descuento">
+      <change afterPath="$PROJECT_DIR$/Diccionario.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,14 +32,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Matriz3D.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Diccionario.executor": "Run",
+    "Python.Matriz3D.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -77,13 +81,22 @@
       <option name="project" value="LOCAL" />
       <updated>1710731048351</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="calculo_descuento">
+      <option name="closed" value="true" />
+      <created>1710731608667</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710731608667</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="matriz3d" />
     <MESSAGE value="for i, semana in enumerate(temperaturas, start=1):: Esto inicia un bucle for que iterará sobre los elementos de la secuencia temperaturas. Aquí, temperaturas podría ser una lista, tupla u otro tipo de objeto iterable que contiene los datos sobre las temperaturas.&#10;&#10;enumerate(temperaturas, start=1): La función enumerate() toma dos argumentos: la secuencia sobre la que se quiere iterar (temperaturas en este caso) y un número opcional que indica el índice inicial de la enumeración (en este caso, start=1).&#10;&#10;i, semana: Aquí, i representa el índice de la iteración actual, y semana representa el elemento actual de la secuencia. i y semana son las variables que se utilizarán dentro del bucle para acceder al índice y al valor del elemento, respectivamente.&#10;&#10;La línea de código en cuestión crea un bucle for que itera sobre los elementos de temperaturas, y para cada elemento, i representa el índice de ese elemento, comenzando desde 1, y semana representa el valor del elemento en esa posición." />
     <MESSAGE value="Compras" />
-    <option name="LAST_COMMIT_MESSAGE" value="Compras" />
+    <MESSAGE value="calculo_descuento" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculo_descuento" />
   </component>
 </project>
