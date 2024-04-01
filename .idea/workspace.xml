@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d9457e5-8345-4cf4-9f7f-c78cfb2d3a92" name="Changes" comment="calculo_descuento">
-      <change afterPath="$PROJECT_DIR$/Diccionario.py" afterDir="false" />
+    <list default="true" id="4d9457e5-8345-4cf4-9f7f-c78cfb2d3a92" name="Changes" comment="Este código crea un diccionario llamado informacion_personal que contiene información sobre una persona, como nombre, edad, ciudad y profesión. Luego, actualiza algunos valores, agrega una nueva clave-valor para el teléfono, elimina la clave &quot;edad&quot; y finalmente imprime el diccionario actualizado.">
+      <change afterPath="$PROJECT_DIR$/my_notes.txt..py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -32,15 +35,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Diccionario.executor": "Run",
-    "Python.Matriz3D.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Diccionario.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Matriz3D.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -89,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710731608667</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Este código crea un diccionario llamado informacion_personal que contiene información sobre una persona, como nombre, edad, ciudad y profesión. Luego, actualiza algunos valores, agrega una nueva clave-valor para el teléfono, elimina la clave &quot;edad&quot; y finalmente imprime el diccionario actualizado.">
+      <option name="closed" value="true" />
+      <created>1711342619994</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711342619995</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -97,6 +108,7 @@
     <MESSAGE value="for i, semana in enumerate(temperaturas, start=1):: Esto inicia un bucle for que iterará sobre los elementos de la secuencia temperaturas. Aquí, temperaturas podría ser una lista, tupla u otro tipo de objeto iterable que contiene los datos sobre las temperaturas.&#10;&#10;enumerate(temperaturas, start=1): La función enumerate() toma dos argumentos: la secuencia sobre la que se quiere iterar (temperaturas en este caso) y un número opcional que indica el índice inicial de la enumeración (en este caso, start=1).&#10;&#10;i, semana: Aquí, i representa el índice de la iteración actual, y semana representa el elemento actual de la secuencia. i y semana son las variables que se utilizarán dentro del bucle para acceder al índice y al valor del elemento, respectivamente.&#10;&#10;La línea de código en cuestión crea un bucle for que itera sobre los elementos de temperaturas, y para cada elemento, i representa el índice de ese elemento, comenzando desde 1, y semana representa el valor del elemento en esa posición." />
     <MESSAGE value="Compras" />
     <MESSAGE value="calculo_descuento" />
-    <option name="LAST_COMMIT_MESSAGE" value="calculo_descuento" />
+    <MESSAGE value="Este código crea un diccionario llamado informacion_personal que contiene información sobre una persona, como nombre, edad, ciudad y profesión. Luego, actualiza algunos valores, agrega una nueva clave-valor para el teléfono, elimina la clave &quot;edad&quot; y finalmente imprime el diccionario actualizado." />
+    <option name="LAST_COMMIT_MESSAGE" value="Este código crea un diccionario llamado informacion_personal que contiene información sobre una persona, como nombre, edad, ciudad y profesión. Luego, actualiza algunos valores, agrega una nueva clave-valor para el teléfono, elimina la clave &quot;edad&quot; y finalmente imprime el diccionario actualizado." />
   </component>
 </project>
